@@ -43,7 +43,7 @@ public class SelectionSort extends ComparisonSort {
                     + "skipping the already in-place element, and swaps it in the"
                     + " next place in the list. It continues to do this for every"
                     + " element in the list (except the largest element, which "
-                    + "is implicitly put in place by nature of every element "
+                    + "is implicitly put in place by nature of every other element "
                     + "being put in its proper place) until the list is "
                     + "completely sorted.\n\n" +
                     "Since selection sort works by comparing each element to "

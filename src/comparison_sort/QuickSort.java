@@ -72,15 +72,15 @@ public class QuickSort extends ComparisonSort {
                 + "then relocating the remaining elements in that list by their "
                 + "value relative to the partition object. This implementation "
                 + "uses the first element of the parameter list as the partition "
-                + "to allow demonstration of worst-case run times, thus running "
+                + "to allow demonstration of worst-case run times. Ergo running "
                 + "this implementation on an already sorted or reverse-ordered "
                 + "list is analogous to a recursive selection-sort. Using an "
                 + "implementation which selects a randomized partition makes "
-                + "encountering a worst-case runtime less likely in practice.\n\n" +
+                + "encountering a worst-case runtime less likely in the wild.\n\n" +
                 "Quick Sort’s average case is an efficient n*log(n) comparisons, making it a "
                 + "quality choice for sorting an unordered list. Quick Sort algorithm can "
-                + "also be generalized to solve other problems, such as the “Nuts"
-                + " and Bolts” (aka “Key and Lock”) problem. The drawbacks of "
+                + "also be generalized to solve other problems, such as the \"Nuts"
+                + " and Bolts\" (aka \"Key and Lock\") problem. The drawbacks of "
                 + "Quick Sort include its less-efficient worst case, n^2 "
                 + "comparisons, as well its recursive design making "
                 + "implementation error-prone. ";

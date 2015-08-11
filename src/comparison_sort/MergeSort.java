@@ -77,11 +77,11 @@ public class MergeSort extends ComparisonSort {
     public String about(){
         return "Merge Sort is a stable divide-and-conquer algorithm which works "
                 + "by recursively dividing a list up until the elements are in "
-                + "lists of one, then merging the lists back together in order. "
+                + "lists with a length of one, then merging the lists back together in order. "
                 + "\n\n" +
                 "Merge Sort is useful because it only requires an efficient n*log(n) "
                 + "comparisons regardless of the initial order of the list.  "
-                + "However, it has the ‘hidden overhead’ of requiring the creation"
+                + "However, it has the \"hidden overhead\" of requiring the creation"
                 + " of additional arrays representing the divided up list. Also,"
                 + " due to its recursive design, it requires multiple pushes to "
                 + "the call-stack and implementing it is error-prone.";

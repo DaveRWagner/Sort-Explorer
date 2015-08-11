@@ -39,15 +39,15 @@ public class InsertionSort extends ComparisonSort {
          * @return a written description of the insertion sort algorithm
          */
 	public String about(){
-		return "Insertion sort works by selecting an element from a list, in this implementation"
-				+ " the highest indexed element until it is compared to an element with a lower "
+		return "Insertion sort works by selecting an element from a list (this implementation selects"
+				+ " the highest-indexed element) and comparing it to each element"
+                                + " until it is compared to an element with a lower key "
 				+ "value, which the selected element is inserted after. This process is repeated "
 				+ "until every element has been inserted to its proper place. \n\n"
 				+ "Insertion sort has the desirable quality of only requiring n-1 comparisons "
 				+ "for a list size n iff that list is already sorted. The tradeoff is that the "
-				+ "Big-O for insertion sort is n^2, in other words for the worst case (for "
-				+ "insertion sort that's a list in reverse order) insertion sort will require "
-				+ "about n^2 comparisons for a list size n, which isn't horrible-- but there exists "
+				+ "worst case for insertion sort, a reverse-ordered list, will require "
+				+ "about n^2 comparisons to sort a list size n. That isn't too horrible-- but there exists "
 				+ "more efficient sorting algorithms for large lists.";
 	}
 

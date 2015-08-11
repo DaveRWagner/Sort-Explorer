@@ -53,14 +53,15 @@ public class MainGui extends javax.swing.JFrame {
             + "5 then lists containing 5, 10, and 15 elements will be sorted.";
     String intervalsAbout = "The 'Intervals' field describes the distance between"
             + " various sizes of lists in tests conducted. For example, if intervals"
-            + " is set to 5, maximum size is set to 15 and minimum size is set to "
-            + "5 then lists containing 5, 10, and 15 elements will be sorted.";
+            + " is set to 5, minimum size is set to 5 and maximum size is set to "
+            + "15 then lists containing 5, 10, and 15 elements will be sorted.";
     String includeRandomAbout = "The 'include random' checkbox, if selected, "
             + "indicates that the sort tests should be conducted on randomly ordered"
             + " lists. This may be useful for depicting about where the average case"
             + " of some algorithms fall.";
     String iterationsAbout = "The 'iterations' value describes how many randomly "
-            + "ordered lists should be included in the set of lists to be sorted. ";
+            + "ordered lists should be included for each interval in the set of "
+            + "lists to be sorted. ";
     String includeAscendingAbout = "The 'Include Ascending' checkbox, if selected, "
             + "indicates that the sort tests should be conducted on already sorted"
             + " lists. This may be useful for depicting the best or worst cases of some "
